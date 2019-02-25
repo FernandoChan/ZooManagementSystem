@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogmaster</class>
+ <widget class="QDialog" name="Dialogmaster">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1099</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_getIm">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>361</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Get imformation of your staffs</string>
+   </property>
+   <widget class="QComboBox" name="comboBox_get">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>All staffs</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_get">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_hellomaster">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hello, master!</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_getAnimal">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>361</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Get all imformation of your animals</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_getAnimal">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>50</y>
+      <width>111</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get All</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_imformations">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>100</y>
+     <width>571</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>Get imformation
+
+Thanks for using it</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_talk">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>420</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Talk to your staff</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_talkto">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>121</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Talk to</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_talk">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>430</y>
+     <width>571</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>Talk to your staff or get message of your staff
+
+Thanks for using it</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_logout">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>40</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_animal">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>540</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Add a new animal</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_animal">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogbuy</class>
+ <widget class="QDialog" name="Dialogbuy">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>885</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Goods</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>211</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Shopping</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>114</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_ice">
+       <property name="text">
+        <string>Ice cream</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_mascot">
+       <property name="text">
+        <string>Mascot</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_postcard">
+       <property name="text">
+        <string>Postcard</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_sausage">
+       <property name="text">
+        <string>Sausage</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_pencil">
+       <property name="text">
+        <string>Pencil</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_hellow">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>541</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hello, what kinds of things do wang to buy?</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_buy">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>410</y>
+     <width>421</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Buy it! </string>
+   </property>
+   <widget class="QPushButton" name="pushButton_buy">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>150</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buy</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ice cream</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pencil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Postcard</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mascot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>sausage</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_cost">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_num">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>541</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string>Imformations of goods 
+
+welcome to the shopping mall</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
